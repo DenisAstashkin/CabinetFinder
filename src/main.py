@@ -5,7 +5,7 @@ from key_value_table import get_from_idTable
 from media_storage import save_file, get_file
 from config import BOT_TOKEN, PANORAMA_IMAGE_BUCKET, PANNELUM_URL, PANNELUM_PORT
 
-bot = telebot.TeleBot('8019413008:AAHBCfXzc3xmrkFuabsFSLJSxforsILkjlA')
+bot = telebot.TeleBot(BOT_TOKEN)
 
 markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
 
