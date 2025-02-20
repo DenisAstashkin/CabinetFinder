@@ -1,4 +1,5 @@
 telebot
+dotenv
 neo4j
 redis
 minio
