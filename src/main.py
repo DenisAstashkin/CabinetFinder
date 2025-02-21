@@ -5,7 +5,7 @@ from key_value_table import get_from_idTable
 from media_storage import get_file
 from config import BOT_TOKEN, PANORAMA_IMAGE_BUCKET, PANNELUM_URL, PANNELUM_PORT
 
-bot = telebot.TeleBot('8019413008:AAHBCfXzc3xmrkFuabsFSLJSxforsILkjlA')
+bot = telebot.TeleBot('TOKEN')
 
 buttons_main = [
     "🔎 Найти дорогу",
